@@ -1,0 +1,72 @@
+.profileCard {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.picture {
+    width: 23%;
+    border: rgba(88, 122, 156, 0.7) 1px solid;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 3px;
+}
+
+.details {
+    width: 70%;
+}
+
+.badgeDiv {
+    margin-right: 0.5rem;
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.badgeDiv>div {
+    margin: 0.2rem 0.7rem;
+}
+
+.profileImage {
+    height: 200px;
+    width: 180px;
+    border: rgba(88, 122, 156, 0.7) 1px solid;
+}
+
+.reputation {
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.reputation > div:last-child {
+    font-size: 0.7rem;
+    color: #9199a1;
+}
+
+.reputation > div {
+    margin-right: 0.5rem;
+}
+
+.topTagsDiv {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.topTagsDiv > div:first-child {
+    width: 15%;
+}
+
+.scoreLable {
+    font-size: 0.6rem;
+    color: #9199a1;
+}
+
+.userLink {
+    font-size: 1.2rem;
+}
+
+.userName {
+    font-size: 2rem;
+}

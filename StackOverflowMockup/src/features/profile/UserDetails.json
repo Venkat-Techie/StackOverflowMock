@@ -1,0 +1,31 @@
+{
+    "items": [
+      {
+        "badge_counts": {
+          "bronze": 24,
+          "silver": 6,
+          "gold": 1
+        },
+        "account_id": 7937871,
+        "is_employee": false,
+        "last_modified_date": 1618498920,
+        "last_access_date": 1628005398,
+        "reputation_change_year": -38,
+        "reputation_change_quarter": -50,
+        "reputation_change_month": -50,
+        "reputation_change_week": -50,
+        "reputation_change_day": 0,
+        "reputation": 467,
+        "creation_date": 1456657426,
+        "user_type": "registered",
+        "user_id": 5993122,
+        "accept_rate": 73,
+        "link": "https://stackoverflow.com/users/5993122/yen-sheng",
+        "profile_image": "https://www.gravatar.com/avatar/c04d97a54bc4d08e9d3751d8c0d0d715?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Yen Sheng"
+      }
+    ],
+    "has_more": false,
+    "quota_max": 10000,
+    "quota_remaining": 9679
+  }

@@ -1,0 +1,100 @@
+.displayFlexRow {
+    display: flex;
+}
+
+.displayFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleAndTags>div {
+    margin: 0.3rem 0.1rem;
+}
+
+.titleAndTags {
+    width: 80%;
+}
+
+.votesDiv {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0.7rem;
+    color: #9199a1;
+    font-size: 0.75rem;
+    margin-right: 0.75rem;
+    letter-spacing: 0.2px;
+    width: 100%;
+}
+
+.votesDiv>div:first-child {
+    font-size: 1.15rem;
+}
+
+.reputationTag {
+    background-color: #0077cc;
+    color: #ffffff;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    margin-right: 0.3rem;
+}
+
+.questionsCard {
+    display: flex;
+    padding: 0.6rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.votesViewsSection {
+    width: 25%;
+}
+
+.topHeader {
+    padding: 1.5rem 0;
+    letter-spacing: 0.8px;
+}
+
+.hrTag {
+    border: none;
+    height: 0.5px;
+    background-color: #00000029;
+}
+
+.tags {
+    padding: 0.3rem 0.5rem;
+    margin-right: 1rem;
+    background-color: #d1e5f1;
+    color: #2c5777;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+
+.tags:hover {
+    color: #ffffff;
+    background-color: #d1e5f1;
+}
+
+.link {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.titleLink {
+    font-size: 1.3rem;
+}
+
+.modifiedDate {
+    align-self: flex-end;
+    color: #9199a1;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1025px) {
+    .questionsCard {
+        display: flex;
+        flex-direction: column;
+    }
+}
